@@ -1,21 +1,28 @@
 <template>
-  <section class="container-section"></section>
+  <section class="container-section">
+    <Card layout="facebook" />
+    <Card layout="instagram" />
+    <Card layout="linkedin" />
+    <Card layout="discord" />
+    <Card layout="github" />
+    <Card layout="telegram" />
+  </section>
 </template>
 
 <script>
+import Card from './Card.vue';
 export default {
+  name: "Section",
+  components: { Card }
 
 }
 </script>
 
 <style>
   .container-section {
-    height: 600px;
-    background: #e4e4e4;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 80px;
   }
 
 </style>
