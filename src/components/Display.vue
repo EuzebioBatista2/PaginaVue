@@ -1,13 +1,17 @@
 <template>
   <div class="display">
       <Header />
+      <Nav />
+      <Section />
   </div>
 </template>
 
 <script>
 import Header from './Header.vue';
+import Nav from './Nav.vue'
+import Section from './Section.vue';
 export default {
-    components: { Header }
+    components: { Header, Nav, Section }
 
 }
 </script>
@@ -15,7 +19,8 @@ export default {
 <style>
     .display {
         display: flex;
-        margin: 40px;
+        flex-direction: column;
+        margin: 0 50px;
     }
     
 

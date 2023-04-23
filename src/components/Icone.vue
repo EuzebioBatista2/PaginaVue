@@ -26,7 +26,6 @@ export default {
         fill: #fff;
         height: 40px;
         display: flex;
-        margin-left: 10px;
         align-items: center;
         
     }

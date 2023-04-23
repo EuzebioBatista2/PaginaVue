@@ -1,32 +1,50 @@
 <template>
   <header class="header">
-    <Icone />
-    <h2>&nbsp;| Help center</h2>
+    <div class="container">
+      <Icone />
+      <h2>&nbsp;| Help center</h2>
+    </div>
+    <div class="container">
+      <Button class="black" label="Submit a request" />
+      <Button class="white" label="Sign in" />
+    </div>
   </header>
 </template>
 
 <script>
 import Icone from "./Icone.vue"
+import Button from './Button.vue'
 export default {
-  components: { Icone }
+  components: { Icone, Button }
 }
 </script>
 
 <style>
   .header {
-    width: 100%;
     display: flex;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     align-items: center;
+    margin-top: 10px;
     background-color: #000 ;
-    padding: 10px;
+    padding: 10px 50px;
+    justify-content: space-between;
   }
   .header h2 {
     color: #fff;
     margin: 0;
     font-size: 1.5em;
     font-weight: 100;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    margin: 0 5px;
   }
 
 </style>
