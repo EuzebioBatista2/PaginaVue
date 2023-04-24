@@ -48,4 +48,10 @@ export default {
     margin: 0 5px;
   }
 
+  div > div.icone:hover svg, div > div.icone:hover h1 {
+        fill: #cccccc;
+        color: #cccccc;
+        cursor: pointer;
+  }
+
 </style>

@@ -32,12 +32,5 @@ export default {
         color: #fff;
         font-size: 3.0rem;
     }
-    .icone:hover svg, .icone:hover h1 {
-        fill: #cccccc;
-        color: #cccccc;
-        cursor: pointer;
-    }
-
-    
 
 </style>
