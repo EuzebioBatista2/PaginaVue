@@ -21,8 +21,10 @@ export default {
 <style>
   .container-section {
     display: flex;
+    box-sizing: border-box;
     flex-wrap: wrap;
-    padding: 0px 80px;
+    width: 100%;
+    /* padding: 0 3.0rem; */
   }
 
 </style>

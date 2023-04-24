@@ -22,11 +22,12 @@ export default {
 <style>
   .header {
     display: flex;
-    height: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 8.0rem;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     align-items: center;
-    margin-top: 10px;
     background-color: #000 ;
     padding: 10px 50px;
     justify-content: space-between;
@@ -34,7 +35,7 @@ export default {
   .header h2 {
     color: #fff;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 3.0em;
     font-weight: 100;
   }
 

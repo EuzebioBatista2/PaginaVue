@@ -26,12 +26,11 @@ export default {
         fill: #fff;
         height: 40px;
         display: flex;
-        align-items: center;
-        
+        align-items: center;     
     }
     .icone h1 {
         color: #fff;
-        font-size: 1.5em;
+        font-size: 3.0rem;
     }
     .icone:hover svg, .icone:hover h1 {
         fill: #cccccc;

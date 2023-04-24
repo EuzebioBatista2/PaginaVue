@@ -19,16 +19,16 @@ export default {
     .navigation {
         display: flex;
         justify-content: center;
+        box-sizing: border-box;
         align-items: center;
         flex-direction: column;
-        width: 100%;
-        height: 350px;
+        padding: 5.0rem 0;
         background-color: #dadbf1;
     }
 
     .navigation h1 {
         font-size: 4.5em;
-        margin: 20px 0;
+        margin: 2.0rem 0;
         font-weight: 300;
     }
 

@@ -13,24 +13,22 @@ export default {
 </script>
 
 <style>
-    .black {
-        background-color: #191b1d;
-        border: 1px solid #dadbf1;
+    button {
         color: #dadbf1;
         border-radius: 10px;
         padding: 10px 30px;
-        font-size: 1.5em;
+        font-size: 2.0rem;
         cursor: pointer;
+    }
+    .black {
+        background-color: #191b1d;
+        border: 1px solid #dadbf1;
+        
     }
 
     .white {
         background-color: #4f5fd5;
         border: none;
-        color: #dadbf1;
-        border-radius: 10px;
-        padding: 10px 30px;
-        font-size: 1.5em;
-        cursor: pointer;
         transition: 0.4s;
     }
 

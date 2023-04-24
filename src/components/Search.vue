@@ -2,8 +2,8 @@
     <div class="search-box">
         <input type="text" class="search-text" placeholder="Pesquisa...">
         <a class="search-btn" href="#">
-          <img class='loupe-blue' src="../assets/loupe-blue.svg" width="40px" height="40px">
-          <img class='loupe-white' src="../assets/loupe-white.svg">
+          <img class='loupe-blue' src="../assets/loupe-blue.svg" width="30px" height="30px">
+          <img class='loupe-white' src="../assets/loupe-white.svg" width="30px" height="30px">
         </a>
     </div>
 </template>
@@ -17,10 +17,9 @@ export default {
 <style>
     .search-box {
         background: #fff;
-        height: 70px;
+        height: 5.0rem;
         border-radius: 50px;
         padding: 10px;
-
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -30,15 +29,15 @@ export default {
         background: none;
         border: 0;
         outline: none;
-        font-size: 28px;
+        font-size: 2.8rem;
         width: 0;
 
         transition: 0.4s;
     }
 
     .search-btn {
-        width: 70px;
-        height: 70px;
+        width: 5.0rem;
+        height: 5.0rem;
         border-radius: 50%;
 
         display: flex;

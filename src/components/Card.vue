@@ -34,19 +34,24 @@ export default {
     .container-card {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        margin: 40px 10px;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 33.3%;
+        padding: 4.0rem 1.5rem;
     }
 
     .card {
         display: flex;
-        box-sizing: border-box;
         flex-direction: column;
         position: relative;
-        width: 300px;
+        box-sizing: border-box;
+        height: 100%;
+        
         align-items: center;
+        justify-content: center;
         border: 2px solid #e4e4e4;
-        padding: 15px;
+        padding: 1.5rem;
         border-radius: 15px;
         cursor: pointer;
         transition: all 0.4s;
@@ -57,10 +62,12 @@ export default {
 
     .card h1 {
         text-transform: uppercase;
+        font-size: 2.0rem;
     }
 
     .card p {
         text-align: justify;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
@@ -78,8 +85,8 @@ export default {
     .effect {
         position: absolute;
         opacity: 0.1;
-        top: 120px;
-        left: 100px;
+        top: 80px;
+        left: 160px;
         align-self: flex-end;
         user-select: none;
         pointer-events: none;
