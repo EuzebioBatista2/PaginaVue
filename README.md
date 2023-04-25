@@ -1,4 +1,4 @@
-# Projeto página responsivda usando VUE
+# Projeto página responsiva usando VUE
 
 > Pequeno projeto com o intuito de aplicar os conhecimentos adquidos em uma página estática. 
 
