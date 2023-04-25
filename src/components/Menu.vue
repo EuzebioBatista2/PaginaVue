@@ -20,8 +20,8 @@ export default {
       const menu = document.getElementById("content-menu")
       menu.classList.toggle('evento')
 
-      const menuTest = document.getElementById("teste")
-      menuTest.classList.toggle('active')
+      const menuLink = document.getElementById("teste")
+      menuLink.classList.toggle('active')
     },
     components: { Button }
   }
