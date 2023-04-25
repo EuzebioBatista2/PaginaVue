@@ -24,7 +24,7 @@ export default {
     box-sizing: border-box;
     flex-wrap: wrap;
     width: 100%;
-    /* padding: 0 3.0rem; */
+    padding: 2.0rem 0;
   }
 
 </style>

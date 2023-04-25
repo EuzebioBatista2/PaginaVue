@@ -56,7 +56,7 @@ export default {
     }
 
     .search-box:hover > .search-text {
-        width: 570px;
+        width: 450px;
         padding-left: 20px;
     }
 
@@ -71,6 +71,17 @@ export default {
 
     .search-box:hover > .search-btn .loupe-blue {
         display: none;
+    }
+
+    @media (max-width: 660px) {
+        .search-box:hover > .search-text {
+            width: 200px;
+            padding-left: 20px;
+        }
+        .display .navigation h1 {
+            font-size: 3.5em;
+        }
+
     }
 
 </style>

@@ -37,4 +37,10 @@ export default {
         color: #191b1d;
     }
 
+    @media (max-width: 960px) {
+        button {
+            display: none;
+        }
+    }
+
 </style>

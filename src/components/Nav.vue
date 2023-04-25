@@ -22,11 +22,13 @@ export default {
         box-sizing: border-box;
         align-items: center;
         flex-direction: column;
+        width: 100%;
         padding: 5.0rem 0;
         background-color: #dadbf1;
     }
 
     .navigation h1 {
+        text-align: center;
         font-size: 4.5em;
         margin: 2.0rem 0;
         font-weight: 300;

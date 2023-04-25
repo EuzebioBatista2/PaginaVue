@@ -35,4 +35,10 @@ body {
 .app {
   padding: 50px;
 }
+
+@media (max-width: 660px) {
+  .app {
+    padding: 0px;
+  }
+}
 </style>

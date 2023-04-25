@@ -38,7 +38,7 @@ export default {
         box-sizing: border-box;
         flex-direction: column;
         width: 33.3%;
-        padding: 4.0rem 1.5rem;
+        padding: 1.5rem 1.5rem 0.4rem 1.5rem;
     }
 
     .card {
@@ -91,5 +91,19 @@ export default {
         user-select: none;
         pointer-events: none;
     }
+
+    @media (max-width: 960px) {
+        .container-card {
+            width: 50%;
+            padding: 1.5rem 1.5rem 0.4rem 1.5rem;
+        }
+    } 
+    
+    @media (max-width: 660px) {
+        .container-card {
+            width: 100%;
+            padding: 1.5rem 1.5rem 0.4rem 1.5rem;
+        }
+    } 
 
 </style>
